@@ -3,8 +3,10 @@ Comprehensive Tests for to_dict() Helper on PaginationPage (Issue #3217)
 Tests serialization, all required keys, edge cases, and JSON compatibility.
 """
 
-import pytest
 import json
+
+import pytest
+
 from src.utils.pagination import PaginationPage, paginate_items
 
 # ==============================================================================
